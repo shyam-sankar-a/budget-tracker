@@ -1,7 +1,42 @@
-<div class="dashboard-wrapper" fxFill fxLayoutAlign="center center">
-  <div fxLayout="row" fxLayoutGap="4em">
-    <app-income-details></app-income-details>
-    <app-buget-tracker-main></app-buget-tracker-main>
-    <app-expense-details></app-expense-details>
-  </div>
+<app-header></app-header>
+<div class="dashboard-wrapper">
+  <mat-grid-list cols="{{cols}}" rowHeight="200px" gutterSize="15px" (window:resize)="onResize($event)">
+    <mat-grid-tile [style.border]="'1px solid #dddddd'">
+      <mat-grid-tile-header [style.backgrpund]="'black'">
+        <h3>Income</h3>
+      </mat-grid-tile-header>
+        Donut chart
+        <app-income-details></app-income-details>
+    </mat-grid-tile>
+    <mat-grid-tile [style.border]="'1px solid #dddddd'">
+      <mat-grid-tile-header>
+        <h3>Manage Your Budget</h3>
+      </mat-grid-tile-header>
+      <app-buget-tracker-main></app-buget-tracker-main>
+    </mat-grid-tile>
+    <mat-grid-tile [style.border]="'1px solid #dddddd'">
+      <mat-grid-tile-header>
+        <h3>Expense</h3>
+      </mat-grid-tile-header>
+      Donut chart
+    </mat-grid-tile>
+    <mat-grid-tile [style.border]="'1px solid #dddddd'">
+      <mat-grid-tile-header>
+        <h3>Last 5 months income</h3>
+      </mat-grid-tile-header>
+      Line chart
+    </mat-grid-tile>
+    <mat-grid-tile [style.border]="'1px solid #dddddd'">
+      <mat-grid-tile-header>
+        <h3>Categories</h3>
+      </mat-grid-tile-header>
+      Editable grid
+    </mat-grid-tile>
+    <mat-grid-tile [style.border]="'1px solid #dddddd'">
+      <mat-grid-tile-header>
+        <h3>Money spent on most</h3>
+      </mat-grid-tile-header>
+      Bar graph
+    </mat-grid-tile>
+  </mat-grid-list>
 </div>
