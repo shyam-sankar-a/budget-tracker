@@ -1,0 +1,33 @@
+:host {
+  width: 100%;
+  margin-top:20px;
+  overflow-x: auto;
+  .main-container {
+    padding-left: 10px;
+  }
+  ::ng-deep {
+    .mat-select-placeholder {
+      color: #333333;
+    }
+    .mat-form-field-appearance-outline .mat-form-field-outline-thick {
+      color: #c93d74 !important;
+      opacity: 1;
+    }
+    .mat-select-arrow {
+      color: #c93d74 !important;
+    }
+    .mat-datepicker-toggle, .mat-datepicker-content .mat-calendar-next-button, .mat-datepicker-content .mat-calendar-previous-button {
+      color: #c93d74 !important;
+    }
+  }
+  .balance-container {
+    font-weight: bold;
+    margin-top: 40px;
+    &-amount {
+      color: #109618
+    }
+    &-amount-risk {
+      color: #d63a65
+    }
+  }
+}

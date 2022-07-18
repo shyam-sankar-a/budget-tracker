@@ -1,7 +1,18 @@
 .dashboard-wrapper {
-  padding: 0 10px;
-  min-width: 320px; 
-  max-width: 1170px; 
+  padding: 80px 3px;
+  min-width: 320px;
   margin: 0 auto;
-  padding-top: 85px;
+
+  .tile-header {
+    width:100%;
+    background: linear-gradient(45deg, #553c9a, #ee4b2b);
+    color:white;
+    height:40px;
+    position: absolute;
+    top: 0;
+  }
+  .tile-header-text {
+    font-weight: 500;
+    margin: 10px 13px;
+  }
 }

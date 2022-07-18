@@ -1,0 +1,25 @@
+:host {
+  width: 100%;
+  height: 100%;
+  .category-table {
+    width: 100%;
+  }
+  th {
+    border-bottom: 1px solid #e7e7e7;
+  }
+  ::ng-deep {
+    td.mat-cell { 
+      padding: 20px 0;
+      border: none;
+    }
+    .mat-table {
+      background: #FFFFFF !important;
+    }
+    .mat-header-cell {
+      color: #333333;
+    }
+    .mat-cell, .mat-footer-cell {
+      color: #333333;
+    }
+  }
+}

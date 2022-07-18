@@ -1,1 +1,61 @@
-<app-card-component></app-card-component>
+<div fxFlex fxLayout="column" class="main-container">
+  <div fxLayout="row" fxLayoutGap="5em">
+    <div fxLayout="column">
+      <mat-label>Income</mat-label>
+      <mat-form-field appearance="outline">
+        <mat-select placeholder="Income">
+          <mat-option *ngFor="let food of brands" [value]="food.value">
+            {{ food.viewValue }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div fxLayout="column">
+      <mat-label>Category</mat-label>
+      <mat-form-field appearance="outline">
+        <mat-select placeholder="Category">
+          <mat-option *ngFor="let food of brands" [value]="food.value">
+            {{ food.viewValue }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+  </div>
+  <div fxLayout="row" fxLayoutGap="5em">
+    <div fxLayout="column">
+      <mat-label>Amount</mat-label>
+      <mat-form-field appearance="outline">
+        <input matInput placeholder="Enter Amount">
+      </mat-form-field>
+    </div>
+    <div fxLayout="column" [style.width]="'200px'">
+      <mat-label>Date</mat-label>
+      <mat-form-field appearance="outline">
+        <input matInput [matDatepicker]="myDatepicker">
+        <mat-datepicker-toggle matSuffix [for]="myDatepicker"></mat-datepicker-toggle>
+        <mat-datepicker #myDatepicker></mat-datepicker>
+      </mat-form-field>
+    </div>
+  </div>
+  <div fxLayout="row" fxLayoutGap="3em">
+    <div fxLayout="column">
+      <mat-label>Budget Threshold Amount</mat-label>
+      <mat-form-field appearance="outline">
+        <input matInput placeholder="Enter Threshold Amount">
+      </mat-form-field>
+    </div>
+    <div fxLayout="column">
+      <div class="balance-container">
+        Balance: <span class="balance-container-amount">20,000 JPY</span>
+      </div>
+    </div>
+    <!-- <div fxLayout="column">
+      <button mat-button mat-flat-button color="primary" [style]="'margin-top:25px; width: 30px;'">Add</button>
+    </div> -->
+  </div>
+  <div fxLayout="row" fxLayoutGap="3em" fxLayoutAlign="center center">
+    <div fxLayout="column">
+      <button mat-button mat-flat-button color="primary">Add Budget</button>
+    </div>
+  </div>
+</div>
