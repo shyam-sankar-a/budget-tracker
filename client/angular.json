@@ -36,6 +36,10 @@
                 "glob": "**/*",
                 "input": "apps/utils/",
                 "output": "utils"
+              }, {
+                "glob": "_redirects",
+                "input": "src",
+                "output": "/"
               }
             ],
             "styles": [
