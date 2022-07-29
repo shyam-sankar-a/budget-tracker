@@ -1,26 +1,30 @@
-import express from 'express';
-import bodyParser from 'body-parser';
-import userRoutes from './routes/userRoutes/users.js';
+const express = require("express");
+const errors = require("./middlewares/errors");
+const userRouter = require("./routes/users.routes");
+const budgiRouter = required("./routes/budgi.routes");
 
 const app = express();
-let port = process.env.PORT || 4201;
+const PORT = process.env.port || 4201;
 
-app.use(bodyParser.json());
+app.use(express.json());
 
-app.get("/", (req, res) => {
-  res.send("Hello World");
+//Routes
+app.use("/user", userRouter);
+app.use("/income/add");
+
+app.use("/", (req, res) => {
+
+  res.send({
+    app_name: "Budget Tracker",
+    author: "Shyam Sankar",
+    description: "An app that can be used for tracking your budget daily, weekly, monthly and yearly",
+    verion: "1.0.0"
+  });
 });
 
-app.use("/users", userRoutes);
+//Error handler
+app.use(errors.errorHandler);
 
-app.listen(port, () => {
-  console.log(`App is now listening on port http://localhost:${port}`);
+app.listen(PORT, () => {
+  console.log(`Your app is listening through port ${PORT}. Access application by http://localhost:${PORT}`);
 });
-
-/* app.get("/", (req, res) => {
-    res.send("Hello World");
-});
-
-app.listen(port, () => {
-    console.log(`App is now listening on port http://localhost:${port}`);
-}); */
