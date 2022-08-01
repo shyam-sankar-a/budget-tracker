@@ -3,7 +3,7 @@ const errors = require("./middlewares/errors");
 const userRouter = require("./routes/users.routes");
 
 const app = express();
-const PORT = process.env.port || 4201;
+const PORT = process.env.PORT || 4201;
 
 app.use(express.json());
 
