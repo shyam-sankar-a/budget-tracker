@@ -25,5 +25,5 @@ app.use("/", (req, res) => {
 app.use(errors.errorHandler);
 
 app.listen(PORT, () => {
-  console.log(`Your app is listening through port ${PORT}. Access application by http://localhost:${PORT}`);
+  console.log(`Your app is listening through port ${process.env.port || 5000}. Access application by http://localhost:${process.env.port || 5000}`);
 });
