@@ -1,0 +1,914 @@
+{
+    "category": [
+      {
+        "id": 1,
+        "name": "Salary / Self-employed income",
+        "type": "income",
+        "cat_id": 0,
+        "color": "#36688D"
+      },
+      {
+        "id": 2,
+        "name": "Bonus",
+        "type": "income",
+        "cat_id": 0,
+        "color": "#F3CD05"
+      },
+      {
+        "id": 3,
+        "name": "Tips",
+        "type": "income",
+        "cat_id": 0,
+        "color": "#F49F05"
+      },
+      {
+        "id": 4,
+        "name": "Tax refund",
+        "type": "income",
+        "cat_id": 0,
+        "color": "#F18904"
+      },
+      {
+        "id": 5,
+        "name": "Gifts received",
+        "type": "income",
+        "cat_id": 0,
+        "color": "#BDA589"
+      },
+      {
+        "id": 6,
+        "name": "Alimony received",
+        "type": "income",
+        "cat_id": 0,
+        "color": "#0444BF"
+      },
+      {
+        "id": 7,
+        "name": "Child support received",
+        "type": "income",
+        "cat_id": 0,
+        "color": "#0584F2"
+      },
+      {
+        "id": 8,
+        "name": "Rental income",
+        "type": "income",
+        "cat_id": 0,
+        "color": "#0AAFF1"
+      },
+      {
+        "id": 9,
+        "name": "Dividend income",
+        "type": "income",
+        "cat_id": 0,
+        "color": "#EDF259"
+      },
+      {
+        "id": 10,
+        "name": "Interest earned",
+        "type": "income",
+        "cat_id": 0,
+        "color": "#A79674"
+      },
+      {
+        "id": 11,
+        "name": "Mortgage/Rent",
+        "type": "housing",
+        "cat_id": 1,
+        "color": "#6465A5"
+      },
+      {
+        "id": 12,
+        "name": "Homeowners association (HOA fees)",
+        "type": "housing",
+        "cat_id": 1,
+        "color": "#6975A6"
+      },
+      {
+        "id": 13,
+        "name": "Homeowners insurance / Renters insurance",
+        "type": "housing",
+        "cat_id": 1,
+        "color": "#F3E96B"
+      },
+      {
+        "id": 14,
+        "name": "Property insurance",
+        "type": "housing",
+        "cat_id": 1,
+        "color": "#F28A30"
+      },
+      {
+        "id": 15,
+        "name": "Home Maintenance",
+        "type": "housing",
+        "cat_id": 1,
+        "color": "#F05837"
+      },
+      {
+        "id": 16,
+        "name": "Property taxes",
+        "type": "housing",
+        "cat_id": 1,
+        "color": "#ABA6BF"
+      },
+      {
+        "id": 17,
+        "name": "Home improvement",
+        "type": "housing",
+        "cat_id": 1,
+        "color": "#595775"
+      },
+      {
+        "id": 18,
+        "name": "Furnishings",
+        "type": "housing",
+        "cat_id": 1,
+        "color": "#583E2E"
+      },
+      {
+        "id": 19,
+        "name": "House cleaning",
+        "type": "home services",
+        "cat_id": 1,
+        "color": "#F1E0D6"
+      },
+      {
+        "id": 20,
+        "name": "Lawn care",
+        "type": "home services",
+        "cat_id": 1,
+        "color": "#BF988F"
+      },
+      {
+        "id": 21,
+        "name": "Security system",
+        "type": "home services",
+        "cat_id": 1,
+        "color": "#192E5B"
+      },
+      {
+        "id": 22,
+        "name": "Pest control",
+        "type": "home services",
+        "cat_id": 1,
+        "color": "#1D65A6"
+      },
+      {
+        "id": 23,
+        "name": "Natural gas",
+        "type": "home services",
+        "cat_id": 1,
+        "color": "#72A2C0"
+      },
+      {
+        "id": 24,
+        "name": "Electricity",
+        "type": "home services",
+        "cat_id": 1,
+        "color": "#00743F"
+      },
+      {
+        "id": 25,
+        "name": "Home phone",
+        "type": "home services",
+        "cat_id": 1,
+        "color": "#F2A104"
+      },
+      {
+        "id": 26,
+        "name": "Mobile phone",
+        "type": "home services",
+        "cat_id": 1,
+        "color": "#132226"
+      },
+      {
+        "id": 27,
+        "name": "Home internet",
+        "type": "home services",
+        "cat_id": 1,
+        "color": "#525B56"
+      },
+      {
+        "id": 28,
+        "name": "Garbage",
+        "type": "home services",
+        "cat_id": 1,
+        "color": "#BE9063"
+      },
+      {
+        "id": 29,
+        "name": "Recycling",
+        "type": "home services",
+        "cat_id": 1,
+        "color": "#A4978E"
+      },
+      {
+        "id": 30,
+        "name": "Water",
+        "type": "home services",
+        "cat_id": 1,
+        "color": "#DAA2DA"
+      },
+      {
+        "id": 31,
+        "name": "Sewer",
+        "type": "home services",
+        "cat_id": 1,
+        "color": "#DBB4DA"
+      },
+      {
+        "id": 32,
+        "name": "Cleaning supplies",
+        "type": "household items",
+        "cat_id": 1,
+        "color": "#BED905"
+      },
+      {
+        "id": 33,
+        "name": "Paper products",
+        "type": "household items",
+        "cat_id": 1,
+        "color": "#93A806"
+      },
+      {
+        "id": 34,
+        "name": "Tools",
+        "type": "household items",
+        "cat_id": 1,
+        "color": "#A4A4BF"
+      },
+      {
+        "id": 35,
+        "name": "Toiletries",
+        "type": "household items",
+        "cat_id": 1,
+        "color": "#16235A"
+      },
+      {
+        "id": 36,
+        "name": "Laundry supplies",
+        "type": "household items",
+        "cat_id": 1,
+        "color": "#2A3457"
+      },
+      {
+        "id": 37,
+        "name": "Postage",
+        "type": "household items",
+        "cat_id": 1,
+        "color": "#888C46"
+      },
+      {
+        "id": 38,
+        "name": "Furniture",
+        "type": "household items",
+        "cat_id": 1,
+        "color": "#F2EAED"
+      },
+      {
+        "id": 39,
+        "name": "Home decor",
+        "type": "household items",
+        "cat_id": 1,
+        "color": "#A3586D"
+      },
+      {
+        "id": 40,
+        "name": "Pool supplies",
+        "type": "household items",
+        "cat_id": 1,
+        "color": "#5C4A72"
+      },
+      {
+        "id": 41,
+        "name": "Groceries",
+        "type": "food",
+        "cat_id": 1,
+        "color": "#F3B05A"
+      },
+      {
+        "id": 42,
+        "name": "Fast food",
+        "type": "food",
+        "cat_id": 1,
+        "color": "#F4874B"
+      },
+      {
+        "id": 43,
+        "name": "Coffee shops",
+        "type": "food",
+        "cat_id": 1,
+        "color": "#F46A4E"
+      },
+      {
+        "id": 44,
+        "name": "Breakfast",
+        "type": "food",
+        "cat_id": 1,
+        "color": "#80ADD7"
+      },
+      {
+        "id": 45,
+        "name": "Lunch",
+        "type": "food",
+        "cat_id": 1,
+        "color": "#0ABDA0"
+      },
+      {
+        "id": 46,
+        "name": "Dinner",
+        "type": "food",
+        "cat_id": 1,
+        "color": "#D4DCA9"
+      },
+      {
+        "id": 47,
+        "name": "Drinks",
+        "type": "food",
+        "cat_id": 1,
+        "color": "#BF9D7A"
+      },
+      {
+        "id": 48,
+        "name": "Snacks",
+        "type": "food",
+        "cat_id": 1,
+        "color": "#C0334D"
+      },
+      {
+        "id": 49,
+        "name": "Car payment / lease payments",
+        "type": "transportation",
+        "cat_id": 1,
+        "color": "#D6618F"
+      },
+      {
+        "id": 50,
+        "name": "Car insurance",
+        "type": "transportation",
+        "cat_id": 1,
+        "color": "#F3D4A0"
+      },
+      {
+        "id": 51,
+        "name": "Fuel",
+        "type": "transportation",
+        "cat_id": 1,
+        "color": "#F1931B"
+      },
+      {
+        "id": 52,
+        "name": "Oil change",
+        "type": "transportation",
+        "cat_id": 1,
+        "color": "#8F715b"
+      },
+      {
+        "id": 53,
+        "name": "Car Maintenance / Repairs",
+        "type": "transportation",
+        "cat_id": 1,
+        "color": "#270101"
+      },
+      {
+        "id": 54,
+        "name": "Personal property taxes",
+        "type": "transportation",
+        "cat_id": 1,
+        "color": "#720017"
+      },
+      {
+        "id": 55,
+        "name": "Public transportation",
+        "type": "transportation",
+        "cat_id": 1,
+        "color": "#D8D583"
+      },
+      {
+        "id": 56,
+        "name": "Ride sharing",
+        "type": "transportation",
+        "cat_id": 1,
+        "color": "#D9AC2A"
+      },
+      {
+        "id": 57,
+        "name": "Tolls",
+        "type": "transportation",
+        "cat_id": 1,
+        "color": "#763F02"
+      },
+      {
+        "id": 58,
+        "name": "Parking Fees",
+        "type": "transportation",
+        "cat_id": 1,
+        "color": "#03353E"
+      },
+      {
+        "id": 59,
+        "name": "Roadside assistance (AAA)",
+        "type": "transportation",
+        "cat_id": 1,
+        "color": "#0294A5"
+      },
+      {
+        "id": 60,
+        "name": "Bus pass monthly",
+        "type": "transportation",
+        "cat_id": 1,
+        "color": "#A79C93"
+      },
+      {
+        "id": 61,
+        "name": "Train pass monthly",
+        "type": "transportation",
+        "cat_id": 1,
+        "color": "#752333"
+      },
+      {
+        "id": 62,
+        "name": "Health insurance",
+        "type": "medical / health",
+        "cat_id": 1,
+        "color": "#55D9C0"
+      },
+      {
+        "id": 63,
+        "name": "Dental insurance",
+        "type": "medical / health",
+        "cat_id": 1,
+        "color": "#C7F6EC"
+      },
+      {
+        "id": 64,
+        "name": "Vision insurance",
+        "type": "medical / health",
+        "cat_id": 1,
+        "color": "#107050"
+      },
+      {
+        "id": 65,
+        "name": "Prescriptions / Medication",
+        "type": "medical / health",
+        "cat_id": 1,
+        "color": "#4DD8AD"
+      },
+      {
+        "id": 66,
+        "name": "Doctor bills",
+        "type": "medical / health",
+        "cat_id": 1,
+        "color": "#728cA3"
+      },
+      {
+        "id": 67,
+        "name": "Dentist visits",
+        "type": "medical / health",
+        "cat_id": 1,
+        "color": "#73C0F4"
+      },
+      {
+        "id": 68,
+        "name": "Hospital bills",
+        "type": "medical / health",
+        "cat_id": 1,
+        "color": "#EECC8D"
+      },
+      {
+        "id": 69,
+        "name": "Optometrist",
+        "type": "medical / health",
+        "cat_id": 1,
+        "color": "#F08B33"
+      },
+      {
+        "id": 70,
+        "name": "Glasses",
+        "type": "medical / health",
+        "cat_id": 1,
+        "color": "#D75404"
+      },
+      {
+        "id": 71,
+        "name": "Chiropractor visits",
+        "type": "medical / health",
+        "cat_id": 1,
+        "color": "#8A2C02"
+      },
+      {
+        "id": 72,
+        "name": "Vitamins/Supplements",
+        "type": "medical / health",
+        "cat_id": 1,
+        "color": "#BD3E85"
+      },
+      {
+        "id": 73,
+        "name": "Life insurance",
+        "type": "insurance",
+        "cat_id": 1,
+        "color": "#182657"
+      },
+      {
+        "id": 74,
+        "name": "Disability insurance",
+        "type": "insurance",
+        "cat_id": 1,
+        "color": "#121F40"
+      },
+      {
+        "id": 75,
+        "name": "Long-term care insurance",
+        "type": "insurance",
+        "cat_id": 1,
+        "color": "#D59B2D"
+      },
+      {
+        "id": 76,
+        "name": "Umbrella policy",
+        "type": "insurance",
+        "cat_id": 1,
+        "color": "#8D541E"
+      },
+      {
+        "id": 77,
+        "name": "Identity theft",
+        "type": "insurance",
+        "cat_id": 1,
+        "color": "#7B8937"
+      },
+      {
+        "id": 78,
+        "name": "Tuition",
+        "type": "kids",
+        "cat_id": 1,
+        "color": "#6B7436"
+      },
+      {
+        "id": 79,
+        "name": "Daycare",
+        "type": "kids",
+        "cat_id": 1,
+        "color": "#F4D9C1"
+      },
+      {
+        "id": 80,
+        "name": "Babysitter",
+        "type": "kids",
+        "cat_id": 1,
+        "color": "#D72F01"
+      },
+      {
+        "id": 81,
+        "name": "Diapers",
+        "type": "kids",
+        "cat_id": 1,
+        "color": "#F09E8C"
+      },
+      {
+        "id": 82,
+        "name": "Baby necessities",
+        "type": "kids",
+        "cat_id": 1,
+        "color": "#D75B66"
+      },
+      {
+        "id": 83,
+        "name": "Summer camp",
+        "type": "kids",
+        "cat_id": 1,
+        "color": "#23345C"
+      },
+      {
+        "id": 84,
+        "name": "School or Extra-curricular activities",
+        "type": "kids",
+        "cat_id": 1,
+        "color": "#F1BA48"
+      },
+      {
+        "id": 85,
+        "name": "School supplies",
+        "type": "kids",
+        "cat_id": 1,
+        "color": "#BD8A44"
+      },
+      {
+        "id": 86,
+        "name": "School lunches",
+        "type": "kids",
+        "cat_id": 1,
+        "color": "#BFAFA0"
+      },
+      {
+        "id": 87,
+        "name": "Lessons",
+        "type": "kids",
+        "cat_id": 1,
+        "color": "#582A20"
+      },
+      {
+        "id": 88,
+        "name": "Toys",
+        "type": "kids",
+        "cat_id": 1,
+        "color": "#BE7052"
+      },
+      {
+        "id": 89,
+        "name": "Kids discretionary spending",
+        "type": "kids",
+        "cat_id": 1,
+        "color": "#F1DED1"
+      },
+      {
+        "id": 90,
+        "name": "Child support",
+        "type": "kids",
+        "cat_id": 1,
+        "color": "#F2C083"
+      },
+      {
+        "id": 91,
+        "name": "Kids clothing",
+        "type": "kids",
+        "cat_id": 1,
+        "color": "#9499A6"
+      },
+      {
+        "id": 92,
+        "name": "Veterinarian visits",
+        "type": "pets",
+        "cat_id": 1,
+        "color": "#F4ED71"
+      },
+      {
+        "id": 93,
+        "name": "Pet food",
+        "type": "pets",
+        "cat_id": 1,
+        "color": "#8A8604"
+      },
+      {
+        "id": 94,
+        "name": "Pet medication",
+        "type": "pets",
+        "cat_id": 1,
+        "color": "#CAC7D7"
+      },
+      {
+        "id": 95,
+        "name": "Pet toys/beds",
+        "type": "pets",
+        "cat_id": 1,
+        "color": "#383140"
+      },
+      {
+        "id": 96,
+        "name": "Pet accessories",
+        "type": "pets",
+        "cat_id": 1,
+        "color": "#A3445D"
+      },
+      {
+        "id": 97,
+        "name": "Pet grooming",
+        "type": "pets",
+        "cat_id": 1,
+        "color": "#8D2D56"
+      },
+      {
+        "id": 98,
+        "name": "Pet insurance",
+        "type": "pets",
+        "cat_id": 1,
+        "color": "#2B193E"
+      },
+      {
+        "id": 99,
+        "name": "Netflix",
+        "type": "subscriptions",
+        "cat_id": 1,
+        "color": "#D53C3C"
+      },
+      {
+        "id": 100,
+        "name": "Hulu",
+        "type": "subscriptions",
+        "cat_id": 1,
+        "color": "#24250E"
+      },
+      {
+        "id": 101,
+        "name": "Amazon Prime",
+        "type": "subscriptions",
+        "cat_id": 1,
+        "color": "#3F2A1D"
+      },
+      {
+        "id": 102,
+        "name": "Music (Spotify, Pandora)",
+        "type": "subscriptions",
+        "cat_id": 1,
+        "color": "#8E6248"
+      },
+      {
+        "id": 103,
+        "name": "TV subscription",
+        "type": "subscriptions",
+        "cat_id": 1,
+        "color": "#8C7462"
+      },
+      {
+        "id": 104,
+        "name": "Software subscriptions",
+        "type": "subscriptions",
+        "cat_id": 1,
+        "color": "#F2EBE9"
+      },
+      {
+        "id": 105,
+        "name": "Magazines",
+        "type": "subscriptions",
+        "cat_id": 1,
+        "color": "#515B51"
+      },
+      {
+        "id": 106,
+        "name": "Work clothing",
+        "type": "clothing",
+        "cat_id": 1,
+        "color": "#8C7547"
+      },
+      {
+        "id": 107,
+        "name": "Athletic clothing",
+        "type": "clothing",
+        "cat_id": 1,
+        "color": "#EFA747"
+      },
+      {
+        "id": 108,
+        "name": "Leisure clothing",
+        "type": "clothing",
+        "cat_id": 1,
+        "color": "#DAC6AC"
+      },
+      {
+        "id": 109,
+        "name": "Alterations",
+        "type": "clothing",
+        "cat_id": 1,
+        "color": "#F1445B"
+      },
+      {
+        "id": 110,
+        "name": "Dry cleaning",
+        "type": "clothing",
+        "cat_id": 1,
+        "color": "#65734B"
+      },
+      {
+        "id": 111,
+        "name": "Haircuts",
+        "type": "personal care",
+        "cat_id": 1,
+        "color": "#94A453"
+      },
+      {
+        "id": 112,
+        "name": "Hair coloring",
+        "type": "personal care",
+        "cat_id": 1,
+        "color": "#D9C3B1"
+      },
+      {
+        "id": 113,
+        "name": "Hair products",
+        "type": "personal care",
+        "cat_id": 1,
+        "color": "#F03625"
+      },
+      {
+        "id": 114,
+        "name": "Cosmetics",
+        "type": "personal care",
+        "cat_id": 1,
+        "color": "#C59CDB"
+      },
+      {
+        "id": 115,
+        "name": "Nail salon",
+        "type": "personal care",
+        "cat_id": 1,
+        "color": "#DFD0F1"
+      },
+      {
+        "id": 116,
+        "name": "Eyebrows",
+        "type": "personal care",
+        "cat_id": 1,
+        "color": "#A67B04"
+      },
+      {
+        "id": 117,
+        "name": "Massages",
+        "type": "personal care",
+        "cat_id": 1,
+        "color": "#F3EED6"
+      },
+      {
+        "id": 118,
+        "name": "Spa Services",
+        "type": "personal care",
+        "cat_id": 1,
+        "color": "#701B05"
+      },
+      {
+        "id": 119,
+        "name": "Grooming",
+        "type": "personal care",
+        "cat_id": 1,
+        "color": "#000D29"
+      },
+      {
+        "id": 120,
+        "name": "Gym Membership",
+        "type": "personal care",
+        "cat_id": 1,
+        "color": "#118C8B"
+      },
+      {
+        "id": 121,
+        "name": "Counseling/Therapy",
+        "type": "personal care",
+        "cat_id": 1,
+        "color": "#BCA18D"
+      },
+      {
+        "id": 122,
+        "name": "Movies",
+        "type": "entertaintment",
+        "cat_id": 1,
+        "color": "#F2746B"
+      },
+      {
+        "id": 123,
+        "name": "Books",
+        "type": "entertaintment",
+        "cat_id": 1,
+        "color": "#F14D49"
+      },
+      {
+        "id": 124,
+        "name": "Sporting events",
+        "type": "entertaintment",
+        "cat_id": 1,
+        "color": "#52733B"
+      },
+      {
+        "id": 125,
+        "name": "Wedding gifts",
+        "type": "gifts",
+        "cat_id": 1,
+        "color": "#84A45A"
+      },
+      {
+        "id": 126,
+        "name": "Birthday gifts",
+        "type": "gifts",
+        "cat_id": 1,
+        "color": "#818A6F"
+      },
+      {
+        "id": 127,
+        "name": "Vaccation",
+        "type": "travel",
+        "cat_id": 1,
+        "color": "#715E4E"
+      },
+      {
+        "id": 128,
+        "name": "Vaccation to home",
+        "type": "travel",
+        "cat_id": 1,
+        "color": "#51A2D9"
+      },
+      {
+        "id": 129,
+        "name": "Credit card payment",
+        "type": "debt pay",
+        "cat_id": 1,
+        "color": "#53C0F0"
+      },
+      {
+        "id": 130,
+        "name": "Past due bills",
+        "type": "debt pay",
+        "cat_id": 1,
+        "color": "#8A140E"
+      }
+    ]
+  }

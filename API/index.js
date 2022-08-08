@@ -1,6 +1,7 @@
 const express = require("express");
 const errors = require("./middlewares/errors");
 const userRouter = require("./routes/users.routes");
+const budgiRouter = require("./routes/budgi.routes");
 
 const app = express();
 const PORT = process.env.PORT || 4201;
@@ -9,7 +10,11 @@ app.use(express.json());
 
 //Routes
 app.use("/user", userRouter);
-//app.use("/income/add");
+app.use("/income", budgiRouter);
+app.use("/expense", budgiRouter);
+app.use("/transaction", budgiRouter);
+app.use("/category", budgiRouter);
+app.use("/reports", budgiRouter);
 
 app.use("/", (req, res) => {
 

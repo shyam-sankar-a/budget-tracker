@@ -8,6 +8,7 @@ const login = (req, res) => {
 
     return res.header("auth-token", result).status(200).send({
       message: "Success",
+      status: "success",
       data: result,
     });
   });

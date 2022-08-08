@@ -12,6 +12,7 @@ const register = async (req, res) => {
 
     return res.status(200).send({
       message: "Successfully registerd",
+      status: "success",
     });
   });
 }
